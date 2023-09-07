@@ -1439,7 +1439,7 @@ indent = { tab-width = 2, unit = "  " }
 
 [[grammar]]
 name = "rescript"
-source = { git = "https://github.com/jaredramirez/tree-sitter-rescript", rev = "65609807c628477f3b94052e7ef895885ac51c3c" }
+source = { git = "https://github.com/vadorovsky/tree-sitter-rescript", branch = "fix-clang-errors" }
 
 [[language]]
 name = "erlang"
@@ -2169,7 +2169,7 @@ formatter = { command = "dfmt" }
 
 [[grammar]]
 name = "d"
-source = { git = "https://github.com/gdamore/tree-sitter-d", rev="601c4a1e8310fb2f3c43fa8a923d0d27497f3c04" }
+source = { git = "https://github.com/gdamore/tree-sitter-d", rev="9120816fd0852b3797eae3bad7bf2b8a966f7f70" }
 
 [[language]]
 name = "vhs"
